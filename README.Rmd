@@ -47,4 +47,8 @@ mtcars %>%
 
 ```
 
+District light blue, district yellow, and district red is available as well in the following code:  
+district_light_blue  
+district_yellow  
+district_red  
 

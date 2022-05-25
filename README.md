@@ -38,3 +38,9 @@ mtcars %>%
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
+
+District light blue, district yellow, and district red is available as
+well in the following code:  
+district_light_blue  
+district_yellow  
+district_red
