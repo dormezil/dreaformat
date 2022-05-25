@@ -29,7 +29,7 @@ You can install the development version of dreaformat from [GitHub](https://gith
 devtools::install_github("dormezil/dreaformat")
 ```
 
-## Example
+## Example of using district color functions
 
 Bar plot in district dark blue
 
@@ -51,4 +51,14 @@ District light blue, district yellow, and district red is available as well in t
 district_light_blue  
 district_yellow  
 district_red  
+
+### Examples same plot in other colors
+#### District light blue
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Sample of simple bar graph in district dark blue using mtcars package
+mtcars %>%
+  ggplot(aes(x = cyl)) +
+  geom_bar(fill = district_light_blue())
+
+```
 

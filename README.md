@@ -19,7 +19,7 @@ You can install the development version of dreaformat from
 devtools::install_github("dormezil/dreaformat")
 ```
 
-## Example
+## Example of using district color functions
 
 Bar plot in district dark blue
 
@@ -44,3 +44,9 @@ well in the following code:
 district_light_blue  
 district_yellow  
 district_red
+
+### Examples same plot in other colors
+
+#### District light blue
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
