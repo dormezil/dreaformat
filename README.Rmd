@@ -85,3 +85,24 @@ grid.arrange(dark_blue_gg, light_blue_gg,
   
 ```
 
+## Format tables
+Using the mtcars package demonstrating converting mtcars into a format that can be embedded into MS Word documents for publication. Font is Calibri. Object is stored as a flextable object.
+
+
+#### mtcars raw output
+```{r}
+head(mtcars,5)
+```
+
+#### mtcars formated output
+```{r}
+library(dreaformat)
+
+mtcars_formatted <- head(mtcars,5) %>% drea_table()
+mtcars_formatted
+
+
+```
+
+
+
