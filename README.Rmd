@@ -62,3 +62,11 @@ mtcars %>%
 
 ```
 
+#### District yellow
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Sample of simple bar graph in district dark blue using mtcars package
+mtcars %>%
+  ggplot(aes(x = cyl)) +
+  geom_bar(fill = district_yellow())
+
+```

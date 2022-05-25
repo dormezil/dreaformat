@@ -50,3 +50,7 @@ district_red
 #### District light blue
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+#### District yellow
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
