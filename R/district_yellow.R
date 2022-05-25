@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' district_yellow_blue()
+#' district_yellow()
 
 district_yellow <- function(){
   "#f9ed32"

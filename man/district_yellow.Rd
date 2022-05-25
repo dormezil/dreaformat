@@ -10,5 +10,5 @@ district_yellow()
 This function stores the hex code for district yellow
 }
 \examples{
-district_yellow_blue()
+district_yellow()
 }
