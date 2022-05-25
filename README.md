@@ -21,11 +21,20 @@ devtools::install_github("dormezil/dreaformat")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Bar plot in district dark blue
 
 ``` r
 # Return hex code for district dark blue
+library(tidyverse)
+
 library(dreaformat)
 district_dark_blue()
 #> [1] "#262262"
+
+# Sample of simple bar graph in district dark blue using mtcars package
+mtcars %>%
+  ggplot(aes(x = cyl)) +
+  geom_bar(fill = district_dark_blue())
 ```
+
+<img src="man/figures/README-example-1.png" width="100%" />
