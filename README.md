@@ -73,7 +73,8 @@ head(mtcars,5)
 
 ``` r
 library(dreaformat)
-
 mtcars_formatted <- head(mtcars,5) %>% drea_table()
 mtcars_formatted
 ```
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />

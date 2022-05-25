@@ -95,14 +95,18 @@ head(mtcars,5)
 ```
 
 #### mtcars formated output
-```{r}
+```{r, warning=FALSE, message=FALSE, eval=FALSE}
 library(dreaformat)
-
 mtcars_formatted <- head(mtcars,5) %>% drea_table()
 mtcars_formatted
-
-
 ```
+
+```{r  fig.asp =.3, echo=FALSE}
+library(dreaformat)
+mtcars_formatted <- head(mtcars,5) %>% drea_table()
+mtcars_formatted %>% plot()
+```
+
 
 
 
