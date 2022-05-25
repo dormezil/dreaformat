@@ -48,33 +48,40 @@ mtcars %>%
 ```
 
 District light blue, district yellow, and district red is available as well in the following code:  
-district_light_blue  
-district_yellow  
-district_red  
+**district_light_blue()**  
+**district_yellow()**  
+**district_red()**  
 
-### Examples same plot in other colors
+### Examples same plot in all district colors
 #### District light blue
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 # Sample of simple bar graph in district dark blue using mtcars package
-mtcars %>%
+library(gridExtra)
+library(grid)
+library(lattice)
+dark_blue_gg <- mtcars %>%
   ggplot(aes(x = cyl)) +
-  geom_bar(fill = district_light_blue())
+  geom_bar(fill = district_dark_blue()) +
+  ggtitle("District Dark Blue")
 
+light_blue_gg <- mtcars %>%
+  ggplot(aes(x = cyl)) +
+  geom_bar(fill = district_light_blue()) +
+  ggtitle("District Light Blue")
+
+yellow_gg <- mtcars %>%
+  ggplot(aes(x = cyl)) +
+  geom_bar(fill = district_yellow()) +
+  ggtitle("District Yellow")
+
+red_gg <- mtcars %>%
+  ggplot(aes(x = cyl)) +
+  geom_bar(fill = district_red()) +
+  ggtitle("District Red")
+
+grid.arrange(dark_blue_gg, light_blue_gg,
+            yellow_gg, red_gg,
+            ncol=2)
+  
 ```
 
-#### District yellow
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-# Sample of simple bar graph in district dark blue using mtcars package
-mtcars %>%
-  ggplot(aes(x = cyl)) +
-  geom_bar(fill = district_yellow())
-
-```
-#### District Red
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-# Sample of simple bar graph in district dark blue using mtcars package
-mtcars %>%
-  ggplot(aes(x = cyl)) +
-  geom_bar(fill = district_red())
-
-```

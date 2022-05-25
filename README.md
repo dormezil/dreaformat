@@ -41,18 +41,12 @@ mtcars %>%
 
 District light blue, district yellow, and district red is available as
 well in the following code:  
-district_light_blue  
-district_yellow  
-district_red
+**district_light_blue()**  
+**district_yellow()**  
+**district_red()**
 
-### Examples same plot in other colors
+### Examples same plot in all district colors
 
 #### District light blue
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
-
-#### District yellow
-
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
-\#### District Red
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
