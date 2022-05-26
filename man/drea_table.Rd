@@ -6,6 +6,9 @@
 \usage{
 drea_table(dataframe)
 }
+\arguments{
+\item{dataframe}{Input dataframe to be converted to flextable according to department standards}
+}
 \description{
 This function formats tables into drea standard for importing into word documents
 }

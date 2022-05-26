@@ -5,6 +5,7 @@
 #' @return
 #' @export
 #'
+#' @param dataframe Input dataframe to be converted to flextable according to department standards
 #' @examples
 drea_table <- function(dataframe){
   dataframe %>% flextable() %>%
