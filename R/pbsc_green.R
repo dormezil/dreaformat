@@ -8,5 +8,5 @@
 #' @examples
 #' pbsc_green()
 pbsc_green <- function(){
-  "#262262"
+  "#306c5c"
 }
