@@ -12,4 +12,4 @@ district_dark_blue <- function(){
   "#262262"
 }
 
-district_blue <- function(...)dreaformat:::district_dark_blue(...)
+district_blue <- function(...)district_dark_blue(...)
