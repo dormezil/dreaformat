@@ -9,6 +9,21 @@ drea_table(dataframe)
 \arguments{
 \item{dataframe}{Input dataframe to be converted to flextable according to department standards}
 }
+\value{
+Flex table formated to department guidelines
+}
 \description{
 This function formats tables into drea standard for importing into word documents
+}
+\section{Last Updated By}{
+ Stevens Dormezil
+}
+
+\section{Last Updated}{
+ 6/14/2022
+}
+
+\examples{
+\dontrun{drea_table(datatable)}
+
 }

@@ -6,9 +6,21 @@
 \usage{
 district_red()
 }
+\value{
+String character with hex color code
+}
 \description{
 This function stores the hex code for district red
 }
+\section{Last Updated By}{
+ Stevens Dormezil
+}
+
+\section{Last Updated}{
+ 6/14/2022
+}
+
 \examples{
 district_red()
+
 }

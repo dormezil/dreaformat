@@ -12,6 +12,15 @@ String of hex code
 \description{
 This function stores the hex code for PBSC
 }
+\section{Last Updated By}{
+ Stevens Dormezil
+}
+
+\section{Last Updated}{
+ 6/14/2022
+}
+
 \examples{
 pbsc_green()
+
 }
